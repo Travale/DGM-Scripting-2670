@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="\app" t="IncludeRecursive" />
+    <e p="\e65c14ba" t="IncludeRecursive" />
+    <e p="C:\Users\Travis\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Travis\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_ScriptingInUnity.722246357.00" t="ExcludeRecursive" />
+    <e p="D:\Users\Travis\DGM-Scripting-2670\ScriptingInUnity" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Objects" t="Include">
+          <e p="ColorData.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AiAgent.cs" t="Include" />
+          <e p="CharacterMovement.cs" t="Include" />
+          <e p="Draggable.cs" t="Include" />
+          <e p="EventBasedBehaviors" t="Include">
+            <e p="DestroyEvent.cs" t="Include" />
+            <e p="DisableEvent.cs" t="Include" />
+            <e p="MouseDownEvent.cs" t="Include" />
+            <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="UpdateEvent.cs" t="Include" />
+          </e>
+          <e p="FloatBool.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
+          <e p="If Statments and Loops" t="Include">
+            <e p="ForLoop.cs" t="Include" />
+            <e p="ForLoopSize.cs" t="Include" />
+            <e p="IfStatements.cs" t="Include" />
+            <e p="WhileLoopColor.cs" t="Include" />
+          </e>
+          <e p="Letters.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="NewEvent.cs" t="Include" />
+          <e p="PowerUpData.cs" t="Include" />
+          <e p="PrefabData.cs" t="Include" />
+          <e p="WordGameScripts" t="Include">
+            <e p="Letter.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="Word.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ScriptingInUnity.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
