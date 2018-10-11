@@ -1,0 +1,3 @@
+[submodule "HyperCasualGame/Assets/NavMeshComponents"]
+	path = HyperCasualGame/Assets/NavMeshComponents
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
