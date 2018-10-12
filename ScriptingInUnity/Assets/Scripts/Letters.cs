@@ -1,7 +1,7 @@
 
 
-namespace ArtisanDream.Words
-{
+
+
     public struct Letters
     {
         public enum LetterSelection
@@ -10,4 +10,3 @@ namespace ArtisanDream.Words
         }
         
     }
-}

@@ -1,4 +1,4 @@
-﻿using ArtisanDream.Words;
+﻿
 using UnityEngine;
 
 [CreateAssetMenu]
