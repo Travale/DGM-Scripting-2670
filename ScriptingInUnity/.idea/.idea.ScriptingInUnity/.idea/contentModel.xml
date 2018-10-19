@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10574957\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_ScriptingInUnity.1090556975.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10574957\Documents\DGM-Scripting-2670\ScriptingInUnity" t="IncludeRecursive">
+    <e p="\app" t="IncludeRecursive" />
+    <e p="\e65c14ba" t="IncludeRecursive" />
+    <e p="C:\Users\Travis\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Travis\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_ScriptingInUnity.722246357.00" t="ExcludeRecursive" />
+    <e p="D:\Users\Travis\DGM-Scripting-2670\ScriptingInUnity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ObjectID.cs" t="Include" />
         <e p="Objects" t="Include">
           <e p="ColorData.cs" t="Include" />
         </e>
@@ -38,6 +42,7 @@
           <e p="PowerUpData.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
           <e p="Store.cs" t="Include" />
+          <e p="TriggerID.cs" t="Include" />
           <e p="WordGameScripts" t="Include">
             <e p="Letter.cs" t="Include" />
             <e p="NameID.cs" t="Include" />

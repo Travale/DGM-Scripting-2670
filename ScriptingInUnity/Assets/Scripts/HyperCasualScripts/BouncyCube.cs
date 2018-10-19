@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class BouncyCube : MonoBehaviour
 {
-
-
+	public float force;
+	public float speed = 7f;
 	public float moveSpeed = 20f;
 	private Rigidbody squareRigidBody;
+	public Random randomSpeed = new Random();
 	
 	
 	void Start ()
@@ -18,14 +20,14 @@ public class BouncyCube : MonoBehaviour
 	
 	void Update ()
 	{
-		float inputX = Input.GetAxis("Horizontal");
-		float inputZ = Input.GetAxis("Vertical");
+	
+		Vector3 direction = (target.position - Cube.transform.position)normalized;
+		Cube.rigidbody.AddForce(direction * 250f);
 
-		float moveX = inputX * moveSpeed * Time.deltaTime;
-		float moveZ = inputZ * moveSpeed * Time.deltaTime;
+		
 
 		//transform.Translate(moveX, 0f, moveZ);
 		
-		squareRigidBody.AddForce(moveX, 0f, moveZ);
+		squareRigidBody.AddForce(speed, 0, speed);
 	}
 }

@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: e70a2f7f603268a4a8ad208459a94d49
+guid: f7d1d8ade3d3b9e479c43ee7fd8ecf5d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hexagon
-    21300002: Star
-    21300004: Ellipse
+    21300000: Ring
+    21300002: Circle
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -85,61 +84,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hexagon
+      name: Ring
       rect:
         serializedVersion: 2
-        x: 279
-        y: 2508
-        width: 687
-        height: 604
+        x: 6
+        y: 217
+        width: 288
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f98fca7ccfb474095164496d705b8a
+      spriteID: 376a6abab0f68d84f82a0aa839943d6b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star
+      name: Circle
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 2503
-        width: 705
-        height: 670
+        x: 303
+        y: 4
+        width: 204
+        height: 204
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e3161305f9fe54e9753033b5296b56
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellipse
-      rect:
-        serializedVersion: 2
-        x: 317
-        y: 1744
-        width: 649
-        height: 546
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d1124631c7ebbc45b2d254a1bfa3a6b
+      spriteID: d71082f9926f7d747b24b8ebc6b963a2
       vertices: []
       indices: 
       edges: []
@@ -147,7 +126,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b7d64a37230e2d049959a2c3753f3a96
+    spriteID: 8761f961ef757614bb86a4fc2621a1b2
     vertices: []
     indices: 
     edges: []

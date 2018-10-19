@@ -15,7 +15,7 @@ public class Draggable : MonoBehaviour {
 
 	private void OnMouseDown()
 	{
-		currentPosition = transform.position -= cam.ScreenToWorldPoint(Input.mousePosition); 
+		currentPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition); 
 	}
 
 
@@ -23,6 +23,6 @@ public class Draggable : MonoBehaviour {
 	{
 		newPosition = currentPosition + cam.ScreenToWorldPoint(Input.mousePosition);
 		newPosition.z = 0;
-		transform.position = cam.ScreenToWorldPoint(Input.mousePosition);
+		transform.position = newPosition;
 	}
 }
