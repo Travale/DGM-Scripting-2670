@@ -10,7 +10,10 @@ public class BouncyCube : MonoBehaviour
 	public float moveSpeed = 20f;
 	private Rigidbody squareRigidBody;
 	public Random randomSpeed = new Random();
-	
+	public bool moveDirection;
+	public LayerMask whatIsWall;
+	private bool collideWithWall;
+	public Transform wallCheck;
 	
 	void Start ()
 	{
@@ -20,14 +23,23 @@ public class BouncyCube : MonoBehaviour
 	
 	void Update ()
 	{
-	
-		Vector3 direction = (target.position - Cube.transform.position)normalized;
-		Cube.rigidbody.AddForce(direction * 250f);
+		collideWithWall = Physics2D.OverlapCircle(wallCheck.position, 5f, whatIsWall);
 
-		
+		if (collideWithWall)
+			moveDirection = !moveDirection;
 
+		if (moveDirection)
+		{
+			transform.localScale = new Vector3(3f, 0f, 5f);
+			squareRigidBody.velocity = new Vector2(moveSpeed, squareRigidBody.velocity.x);
+		}
+		else
+		{
+			transform.localScale = new Vector3(-3f, 0f, -5f);
+			squareRigidBody.velocity = new Vector2(-moveSpeed, squareRigidBody.velocity.x);
+		}
 		//transform.Translate(moveX, 0f, moveZ);
 		
-		squareRigidBody.AddForce(speed, 0, speed);
+		
 	}
 }

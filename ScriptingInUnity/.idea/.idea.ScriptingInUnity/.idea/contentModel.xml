@@ -28,6 +28,7 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="HyperCasualScripts" t="Include">
             <e p="BouncyCube.cs" t="Include" />
+            <e p="Mover.cs" t="Include" />
           </e>
           <e p="If Statments and Loops" t="Include">
             <e p="ForLoop.cs" t="Include" />
