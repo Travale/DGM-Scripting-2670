@@ -26,9 +26,9 @@
     <list default="true" id="458f4e07-d9d7-4aaf-b02f-911c73d4da10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScriptingInUnity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScriptingInUnity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScriptingInUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScriptingInUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HyperCasualGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HyperCasualGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,18 +77,19 @@
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2401" />
+          <entry key="cs" value="2912" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2401" />
+          <entry key="C#" value="2912" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,15 +109,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/If Statments and Loops/ForLoop.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,33 +161,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+            <state relative-caret-position="493">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
               <folding>
-                <marker date="1539981022398" expanded="false" signature="6:121" ph="..." />
-                <marker date="1539981022398" expanded="true" signature="162:1040" ph="{...}" />
-                <marker date="1539981022398" expanded="true" signature="456:509" ph="{...}" />
-                <marker date="1539981022398" expanded="true" signature="529:1038" ph="{...}" />
-                <marker date="1539981022398" expanded="true" signature="694:835" ph="{...}" />
-                <marker date="1539981022398" expanded="true" signature="842:986" ph="{...}" />
+                <marker date="1540245305664" expanded="false" signature="6:121" ph="..." />
+                <marker date="1540245305664" expanded="true" signature="162:943" ph="{...}" />
+                <marker date="1540245305664" expanded="true" signature="456:509" ph="{...}" />
+                <marker date="1540245305664" expanded="true" signature="529:940" ph="{...}" />
+                <marker date="1540245305664" expanded="true" signature="535:936" ph="/* transform.Translate(Vector3.forward * Time.deltaTime * speed); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="493">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
-                <marker date="1539981706836" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539981706836" expanded="true" signature="114:298" ph="{...}" />
-                <marker date="1539981706836" expanded="true" signature="201:208" ph="{...}" />
-                <marker date="1539981706836" expanded="true" signature="228:296" ph="{...}" />
+                <marker date="1537585332925" expanded="false" signature="6:78" ph="..." />
+                <marker date="1537585332925" expanded="true" signature="141:1046" ph="{...}" />
+                <marker date="1537585332925" expanded="true" signature="441:564" ph="{...}" />
+                <marker date="1537585332925" expanded="true" signature="482:531" ph="{...}" />
+                <marker date="1537585332925" expanded="true" signature="621:749" ph="{...}" />
+                <marker date="1537585332925" expanded="true" signature="795:1044" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -248,7 +241,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/If Statments and Loops/ForLoopSize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WordGameScripts/Objects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -273,8 +265,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Draggable.cs" />
         <option value="$PROJECT_DIR$/Assets/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs" />
       </list>
     </option>
   </component>
@@ -284,7 +276,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="982" />
     <option name="y" value="25" />
     <option name="width" value="974" />
@@ -374,11 +366,12 @@
       <workItem from="1539976789248" duration="4785000" />
       <workItem from="1540183748825" duration="35000" />
       <workItem from="1540183804769" duration="4000" />
+      <workItem from="1540235872975" duration="4845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46009000" />
+    <option name="totallyTimeSpent" value="50854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,9 +383,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -472,13 +466,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Word.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WordGameScripts/Letters.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Letters.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -521,17 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1537585427366" expanded="false" signature="6:92" ph="..." />
-            <marker date="1537585427366" expanded="true" signature="163:318" ph="{...}" />
-            <marker date="1537585427366" expanded="true" signature="250:314" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,30 +561,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        <state>
           <folding>
-            <marker date="1539981022398" expanded="false" signature="6:121" ph="..." />
-            <marker date="1539981022398" expanded="true" signature="162:1040" ph="{...}" />
-            <marker date="1539981022398" expanded="true" signature="456:509" ph="{...}" />
-            <marker date="1539981022398" expanded="true" signature="529:1038" ph="{...}" />
-            <marker date="1539981022398" expanded="true" signature="694:835" ph="{...}" />
-            <marker date="1539981022398" expanded="true" signature="842:986" ph="{...}" />
+            <marker date="1537585427366" expanded="false" signature="6:92" ph="..." />
+            <marker date="1537585427366" expanded="true" signature="163:318" ph="{...}" />
+            <marker date="1537585427366" expanded="true" signature="250:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1537585332925" expanded="false" signature="6:78" ph="..." />
+            <marker date="1537585332925" expanded="true" signature="141:1046" ph="{...}" />
+            <marker date="1537585332925" expanded="true" signature="441:564" ph="{...}" />
+            <marker date="1537585332925" expanded="true" signature="482:531" ph="{...}" />
+            <marker date="1537585332925" expanded="true" signature="621:749" ph="{...}" />
+            <marker date="1537585332925" expanded="true" signature="795:1044" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/Mover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HyperCasualScripts/BouncyCube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
           <folding>
-            <marker date="1539981706836" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539981706836" expanded="true" signature="114:298" ph="{...}" />
-            <marker date="1539981706836" expanded="true" signature="201:208" ph="{...}" />
-            <marker date="1539981706836" expanded="true" signature="228:296" ph="{...}" />
+            <marker date="1540245305664" expanded="false" signature="6:121" ph="..." />
+            <marker date="1540245305664" expanded="true" signature="162:943" ph="{...}" />
+            <marker date="1540245305664" expanded="true" signature="456:509" ph="{...}" />
+            <marker date="1540245305664" expanded="true" signature="529:940" ph="{...}" />
+            <marker date="1540245305664" expanded="true" signature="535:936" ph="/* transform.Translate(Vector3.forward * Time.deltaTime * speed); ... */" />
           </folding>
         </state>
       </provider>

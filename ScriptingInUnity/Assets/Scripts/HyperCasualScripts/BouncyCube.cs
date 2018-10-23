@@ -23,23 +23,14 @@ public class BouncyCube : MonoBehaviour
 	
 	void Update ()
 	{
-		collideWithWall = Physics2D.OverlapCircle(wallCheck.position, 5f, whatIsWall);
+		/*transform.Translate(Vector3.forward * Time.deltaTime * speed);
+		Ray ray = new Ray(transform.position, transform.forward);
+		RaycastHit hit;
 
-		if (collideWithWall)
-			moveDirection = !moveDirection;
-
-		if (moveDirection)
-		{
-			transform.localScale = new Vector3(3f, 0f, 5f);
-			squareRigidBody.velocity = new Vector2(moveSpeed, squareRigidBody.velocity.x);
+		if (Physics.Raycast(ray, out hit, Time.deltaTime + .1f)){
+			Vector3 reflectDir = Vector3.Reflect(ray.direction, hit.normal);
+			float rot = 90 - Mathf.Atan2(reflectDir.x, reflectDir.x) * Mathf.Rad2Deg;
+			transform.eulerAngles = new Vector3(0, rot, 0);*/
 		}
-		else
-		{
-			transform.localScale = new Vector3(-3f, 0f, -5f);
-			squareRigidBody.velocity = new Vector2(-moveSpeed, squareRigidBody.velocity.x);
-		}
-		//transform.Translate(moveX, 0f, moveZ);
-		
-		
 	}
 }
